@@ -5,7 +5,7 @@
     --black: #000000;
     --white: #ffffff;
     --gray: #ABABAB;
-  } 
+} 
 
 body{
     margin: 0px;
@@ -81,7 +81,6 @@ main{
 }
 
 
-
 .about_content h2{
     font-size: 30px;
     font-weight: 500;
@@ -92,6 +91,9 @@ main{
     color: #969696;
     max-width: 500px;
 }
+
+
+
 
 
 
@@ -116,6 +118,16 @@ main{
     .about_images{
       flex-direction: column;
     }
+
+    .about_section{
+        justify-content: center;
+    }
+
+    .about_images{
+        flex-direction: column;
+    }
+
+
 
      
 }
