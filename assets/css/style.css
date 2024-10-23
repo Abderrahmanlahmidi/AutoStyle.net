@@ -112,11 +112,20 @@ body{
 
     .menu_button img{
         width: 30px;
-        height: 30px;
+
     }
 
     .menu_button{
-        padding: 10px;
+      padding: 7px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .menu_button:hover{
+        background-color: rgb(233, 233, 233);
+        border-radius: 5px;
+        
     }
 
     .menu_button{
@@ -124,7 +133,6 @@ body{
     }
 
   
-    
 
      
 }
