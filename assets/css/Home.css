@@ -54,6 +54,13 @@ main{
 }
 
 /* about images section */
+.about_images{
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+
 .about_section{
     display: flex;
     justify-content: space-between;
@@ -66,7 +73,12 @@ main{
     flex-direction: column;
 }
 
-
+.about_small_images{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
 
 
 
@@ -83,16 +95,10 @@ main{
 
 
 
-
-
-
-
-
 /* Media Query */
 @media (max-width: 1000px) {
 
   
-
     /* main responsive */
     main{
         padding: 0px 16px;
@@ -105,6 +111,10 @@ main{
     .about_section{
         flex-direction: column;
         
+    }
+
+    .about_images{
+      flex-direction: column;
     }
 
      
