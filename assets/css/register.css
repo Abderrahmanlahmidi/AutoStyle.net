@@ -276,5 +276,17 @@ top: 120px;
 
 
 }
+
+body{
+    margin-right: 0px;
+    padding-right: 0px;
 }
+}
+
+
+#input-form{
+    position: relative;
+}
+
+
 
