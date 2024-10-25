@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.carte{
+   
+    position: absolute;
+    width: 813.16px;
+    height: 653px;
+    left: 182px;
+    top: 207px;
+}
+
+.carte-content-image img{
+
+position: relative;
+width: 596.86px;
+height: 405.07px;
+left: 107.78px;
+top: 59.36px;
+border-radius: 26px;
+}
+
+.carte-content-edit{
+position: relative;
+width: 82px;
+height: 42px;
+right: 14px;
+left: 718px;
+top: -386.03px;
+background: #000000;
+border-radius: 10px;
+text-align: center;
+}
+.carte-content-edit a{
+
+position: relative;
+width: 73px;
+height: 42px;
+color: aliceblue;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 100%;
+
+}
+.carte-prix{
+    position: relative;
+    width: 162px;
+    height: 42px;
+    left: 106px;
+    bottom: -38px;
+    display: flex;
+    align-items: center;
+    background-color: #000000;
+    border-radius: 10px;
+    text-align: center;
+}
+.carte-prix p{
+    padding: 0px 30px;
+position: relative;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 100%;
+color: aliceblue;
+}
+.carte-content-sup{
+    position: relative;
+    width: 82px;
+    height: 42px;
+    left: 700px;
+    bottom: -76px;
+    background-color: #000000;
+    border-radius: 10px;
+}
+
+.carte-content-sup p{
+    padding: 0px 10px;
+    position: relative;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 100%;
+    color: aliceblue;
+}
+.checkout {
+position: absolute;
+width: 813px;
+height: 95.15px;
+left: 182px;
+top: 903px;
+background: #000000;
+border-radius: 10px;
+}
+.checkout p {
+    padding: 34px 0px 34px 46px;
+    position: relative;
+    width: 127px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 100%;
+    color: rgb(255 255 255);
+}
+.checkout a{
+    padding: 34px 0px 34px 46px;
+    position: relative;
+    width: 127px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 100%;
+    color: rgb(255 255 255);
+}
