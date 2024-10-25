@@ -5,48 +5,49 @@
 }
 
 .carte{
-    border: solid;
+    box-shadow: 1px 2px 5px;
     position: absolute;
     width: 813.16px;
     height: 653px;
     left: 182px;
     top: 207px;
+    border-radius: 15px;
 }
 
 .carte-content-image img{
-
-position: relative;
-width: 596.86px;
-height: 405.07px;
-left: 107.78px;
-top: 59.36px;
-border-radius: 26px;
+    position: relative;
+    width: 596.86px;
+    height: 405.07px;
+    left: 107.78px;
+    top: 59.36px;
+    border-radius: 26px;
 }
 
 .carte-content-edit{
-position: relative;
-width: 82px;
-height: 42px;
-right: 14px;
-left: 718px;
-top: -386.03px;
-background: #000000;
-border-radius: 10px;
-text-align: center;
+    position: relative;
+    width: 82px;
+    height: 42px;
+    right: 14px;
+    left: 718px;
+    top: -386.03px;
+    background: #000000;
+    border-radius: 10px;
+    text-align: center;
 }
 .carte-content-edit a{
-
-position: relative;
-width: 73px;
-height: 42px;
-color: aliceblue;
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 36px;
-line-height: 100%;
+    position: relative;
+    width: 73px;
+    height: 42px;
+    color: aliceblue;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 100%;
+    text-decoration: none;
 
 }
+
 .carte-prix{
     position: relative;
     width: 162px;
@@ -59,16 +60,18 @@ line-height: 100%;
     border-radius: 10px;
     text-align: center;
 }
+
 .carte-prix p{
     padding: 0px 30px;
-position: relative;
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 700;
-font-size: 24px;
-line-height: 100%;
-color: aliceblue;
+    position: relative;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 100%;
+    color: aliceblue;
 }
+
 .carte-content-sup{
     position: relative;
     width: 82px;
@@ -79,25 +82,23 @@ color: aliceblue;
     border-radius: 10px;
 }
 
-.carte-content-sup p{
-    padding: 0px 10px;
+.carte-content-sup a img {
     position: relative;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 100%;
-    color: aliceblue;
+    height: 39px;
+    width: 47px;
+    left: 18px;
 }
+
 .checkout {
-position: absolute;
-width: 813px;
-height: 95.15px;
-left: 182px;
-top: 903px;
-background: #000000;
-border-radius: 10px;
+    position: absolute;
+    width: 813px;
+    height: 95.15px;
+    left: 0px;
+    top: 691px;
+    background: #000000;
+    border-radius: 10px;
 }
+
 .checkout p {
     padding: 34px 0px 34px 46px;
     position: relative;
@@ -109,14 +110,17 @@ border-radius: 10px;
     line-height: 100%;
     color: rgb(255 255 255);
 }
+
 .checkout a{
     padding: 34px 0px 34px 46px;
     position: relative;
-    width: 127px;
+    left: 584px;
+    bottom: 58px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
     font-size: 24px;
     line-height: 100%;
     color: rgb(255 255 255);
+    text-decoration: none;
 }

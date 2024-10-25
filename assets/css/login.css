@@ -66,6 +66,11 @@
     text-transform: uppercase;
     color: #1E1E1E;
 }
+
+#fi-fi-rr-user{
+    width: 900px;
+    height: 900px;
+}
 .login-content-form_inputbox2 input::placeholder{
     width: 126px;
     height: 16px;
@@ -82,18 +87,18 @@
     color: #000000;
 }
  .login-content-form_inputbox1 i{
-    position:relative;
+    position: relative;
     width: 30px;
     height: 34.93px;
-    left: 18px;
-    top: 22.71px;
+    left: 43px;
+    top: 5.71px;
 }
 .login-content-form_inputbox2 i{
     position: relative;
     width: 30px;
     height: 34.93px;
-    left: 18px;
-    top: 22.71px;
+    left: 43px;
+    top: 5.71px;
 }
 .login-button{
     background-color: rgb(0, 0, 0);
@@ -105,8 +110,8 @@
     height: 78.6px;
     border-radius: 4%;
 }
-span{
-    padding: 400px 10px 10px 10px;
+.login-content-form_button span {
+    padding: 10px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
@@ -114,4 +119,7 @@ span{
     line-height: 20px;
     text-align: center;
     color: #1E1E1E;
+    position: relative;
+    left: 138px;
+    top: 20px;
 }
