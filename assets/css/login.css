@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+    
+
+.login-content {
+    display: grid;
+    grid-template-rows: auto;
+    position: absolute;
+    left: 495px;
+    top: 579.25px;
+    width: 500px;
+    height: 550px;
+    text-align: center;
+}
+
+.login-content h2{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    }
+    
+.login-content .login-content-form_inputbox1 input{
+    
+    background-color: rgb(255, 255, 255);
+    color:#000000;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+    width: 450px;
+    height: 78.6px;
+    
+}
+.login-content .login-content-form_inputbox2 input{
+    background-color: rgb(252, 251, 251);
+    color:#000000;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+    width: 450px;
+    height: 78.6px;
+    
+}
+.login-content-form_inputbox1 input::placeholder{
+    width: 126px;
+    height: 16px;
+    position: absolute;
+    left: 65px;
+    top: 31px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #1E1E1E;
+}
+
+#fi-fi-rr-user{
+    width: 900px;
+    height: 900px;
+}
+.login-content-form_inputbox2 input::placeholder{
+    width: 126px;
+    height: 16px;
+    position: absolute;
+    left: 65px;
+    top: 31px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+}
+ .login-content-form_inputbox1 i{
+    position: relative;
+    width: 30px;
+    height: 34.93px;
+    left: 43px;
+    top: 5.71px;
+}
+.login-content-form_inputbox2 i{
+    position: relative;
+    width: 30px;
+    height: 34.93px;
+    left: 43px;
+    top: 5.71px;
+}
+.login-button{
+    background-color: rgb(0, 0, 0);
+    color:#ffff;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: large;
+    width: 450px;
+    height: 78.6px;
+    border-radius: 4%;
+}
+.login-content-form_button span {
+    padding: 10px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #1E1E1E;
+    position: relative;
+    left: 138px;
+    top: 20px;
+}
