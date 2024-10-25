@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic');
+
+
+:root {
+    --black: #000000;
+    --white: #ffffff;
+    --gray: #ABABAB;
+  } 
+
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Roboto, sans-serif;
+}
+
+
+/* header style */
+.header{
+    padding: 10px 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+    background-color: var(--white);
+}
+
+.logo h4{
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0px;
+    cursor: pointer;
+}
+
+
+.header ul{
+    display: flex;
+    gap: 30px;
+}
+
+.header ul li{
+    list-style: none;
+
+}
+
+.header ul li a{
+    text-decoration: none;
+    color: var(--blue);
+
+}
+
+
+.header ul li a:hover{
+    color: var(--gray);
+}
+
+.buttons{
+    display: flex;
+    gap: 20px;
+}
+
+
+.buttons button:nth-child(1){
+    background-color: var(--white);
+    border-radius: 5px;
+    width: 70px;
+    height: 40px;
+    font-family: Roboto, sans-serif;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+
+.buttons button:nth-child(2){
+    background-color: var(--black);
+    color: var(--white);
+    border-radius: 5px;
+    width: 70px;
+    height: 40px;
+    font-family: Roboto, sans-serif;
+    font-size: 15px;
+    cursor: pointer;
+    border:none;
+}
+
+.menu_button{
+   display: none;
+}
+
+
+/* Footer Style */
+footer{
+    background: var(--black);
+    padding: 40px 120px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer_content_1 h3{
+    color: var(--white);
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.footer_content_1 p{
+    color: var(--white);
+    max-width: 300px;
+    font-weight: 300;
+}
+
+.footer_content_2 h4{
+    font-size:  20px;
+    color: var(--white);
+    font-weight: 500;
+}
+
+.f_content_1 p{
+    font-weight: 300;
+    color: var(--white);
+}
+
+
+
+/* Media Query */
+@media (max-width: 1000px) {
+
+    .header{
+        padding: 10px 16px;
+    }
+
+    .buttons{
+        display: none;
+    }
+
+    .header ul{
+        display: none;
+    }
+
+    .menu_button img{
+        width: 30px;
+
+    }
+
+    .menu_button{
+      padding: 7px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .menu_button:hover{
+        background-color: rgb(233, 233, 233);
+        border-radius: 5px;
+        
+    }
+
+    .menu_button{
+        display: block;
+    }
+
+    footer{
+        flex-direction: column;
+        justify-content: center;
+        padding: 20px 16px;
+    }
+
+    .footer_content_1 p{
+        max-width: 700px;
+    }
+
+     
+}
