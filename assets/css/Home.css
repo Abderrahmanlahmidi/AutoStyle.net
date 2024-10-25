@@ -5,7 +5,7 @@
     --black: #000000;
     --white: #ffffff;
     --gray: #ABABAB;
-} 
+}
 
 body{
     margin: 0px;
@@ -17,23 +17,23 @@ body{
 
 /* main style */
 main{
-    padding: 0px 120px;   
+    padding: 0px 120px;
     width: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     width: auto;
- 
+
 }
 
 .hero_section{
     background-image: url("../images/Hero_Image.png");
     background-repeat: no-repeat;
-    background-position: center; 
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
-    height: 78vh;   
+    height: 78vh;
     border-radius: 30px;
     padding-top: 77px;
 }
@@ -92,6 +92,104 @@ main{
     max-width: 500px;
 }
 
+.services{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.services_content h3{
+    font-size: 32px;
+    font-weight: 600;
+    margin: 0px;
+}
+
+.services_content p{
+    max-width: 700px;
+    color: #969696;
+}
+
+.search_product h3{
+    font-size: 32px;
+    font-weight: 600;
+    text-align: center;
+}
+
+
+.search_product{
+    padding-bottom: 50px;
+}
+
+
+.cards{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card{
+    border: 1px solid #E5E5E5;
+    border-radius: 10px;
+}
+
+.card img{
+    border-radius: 10px 10px 0px 0px;
+}
+
+.card_content{
+    padding: 15px;
+
+
+}
+
+.card_content h5{
+    margin: 0px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.card_content p{
+    font-size: 14px;
+}
+
+.card_content h5{
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.card_buttons{
+    gap: 10px;
+    display: flex;
+    align-items:center;
+    
+
+}
+
+.card_buttons button{
+    margin-top: 15px;
+    width: 80px;
+    height: 40px;
+    background-color: var(--black);
+    color: var(--white);
+    font-family: Roboto, sans-serif;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.card_button_review{
+    display: flex;
+    align-items: end;
+    
+}
+
+.card_button_review a{
+    position: relative;
+    top: 7px;
+    text-decoration: none;
+}
+
 
 
 
@@ -100,7 +198,7 @@ main{
 /* Media Query */
 @media (max-width: 1000px) {
 
-  
+
     /* main responsive */
     main{
         padding: 0px 16px;
@@ -112,7 +210,7 @@ main{
 
     .about_section{
         flex-direction: column;
-        
+
     }
 
     .about_images{
@@ -127,7 +225,18 @@ main{
         flex-direction: column;
     }
 
+    .services{
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .cards{
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
 
 
-     
+
+
 }
