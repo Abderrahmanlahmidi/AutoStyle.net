@@ -5,7 +5,7 @@
 }
 
 .carte{
-   
+    border: solid;
     position: absolute;
     width: 813.16px;
     height: 653px;
