@@ -89,9 +89,36 @@ body{
 }
 
 
+/* Footer Style */
+footer{
+    background: var(--black);
+    padding: 40px 120px;
+    display: flex;
+    justify-content: space-between;
+}
 
+.footer_content_1 h3{
+    color: var(--white);
+    font-size: 32px;
+    font-weight: 600;
+}
 
+.footer_content_1 p{
+    color: var(--white);
+    max-width: 300px;
+    font-weight: 300;
+}
 
+.footer_content_2 h4{
+    font-size:  20px;
+    color: var(--white);
+    font-weight: 500;
+}
+
+.f_content_1 p{
+    font-weight: 300;
+    color: var(--white);
+}
 
 
 
@@ -132,7 +159,15 @@ body{
         display: block;
     }
 
-  
+    footer{
+        flex-direction: column;
+        justify-content: center;
+        padding: 20px 16px;
+    }
+
+    .footer_content_1 p{
+        max-width: 700px;
+    }
 
      
 }
