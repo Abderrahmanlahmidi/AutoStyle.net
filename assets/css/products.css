@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic');
+
+
+:root {
+    --black: #000000;
+    --white: #ffffff;
+    --gray: #ABABAB;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Roboto, sans-serif;
+}
+
+main{
+    padding: 50px 120px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 40px;
+
+}
+
+.products_content{
+    text-align: center;
+    
+}
+
+.products_content h2{
+    font-size: 36px;
+    font-weight: 500;
+    margin: 0px;
+}
+.products_content p{
+    color: #828487;
+}
+
+.card{
+    border: 1px solid #E5E5E5;
+    border-radius: 10px;
+}
+
+.card img{
+    border-radius: 10px 10px 0px 0px;
+}
+
+.card_content{
+    padding: 15px;
+
+
+}
+
+.card_content h5{
+    margin: 0px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.card_content p{
+    font-size: 14px;
+}
+
+.card_content h5{
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.card_buttons{
+    gap: 10px;
+    display: flex;
+    align-items:center;
+}
+
+.card_buttons button{
+    margin-top: 15px;
+    width: 80px;
+    height: 40px;
+    background-color: var(--black);
+    color: var(--white);
+    font-family: Roboto, sans-serif;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.card_button_review{
+    display: flex;
+    align-items: end;
+    
+}
+
+.card_button_review a{
+    position: relative;
+    top: 7px;
+    text-decoration: none;
+}
+
+.products_cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+
+
+
+/* Media Query */
+@media (max-width: 1000px) {
+
+    .products_cards{
+        justify-content: center;
+    }
+
+    main{
+        padding: 50px 16px;
+        
+    
+    }
+
+
+
+     
+}
